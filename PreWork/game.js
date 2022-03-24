@@ -2,21 +2,21 @@ var game_RNG = [];
 var button_color = ["red", "blue", "green", "yellow"];
 var user_clicked = [];
 
-var level = 0;
 var started = false;
 
+//start / stop button function
 $(".button").click(function () {
     if (!started) {
         $(".button").text("Stop");
         nextSequence();
         started = true;
-        console.log(level);
     } else if (started) {
         alert("game over");
         start_over()
     }
 });
 
+//pushing the user clicks into a base array
 $(".btn").click(function () {
     var user_input = $(this).attr("id");
     user_clicked.push(user_input);
@@ -25,7 +25,7 @@ $(".btn").click(function () {
     animateClick(user_input);
     checkAnswers(user_clicked.length - 1);
 })
-
+//this function checks the answers aginst the RNG of the game to make sure the user is correct
 function checkAnswers(current_level) {
     if (game_RNG[current_level] === user_clicked[current_level]) {
         console.log("pass");
@@ -43,19 +43,14 @@ function checkAnswers(current_level) {
 
 }
 
-
 function timeout() {
     game_RNG.forEach((color, index) => {
-
-
-
-
 
         $("#" + color).fadeOut(100).fadeIn(100);
 
     })
 }
-
+// this is my main function which checks to make sure the game has not passes 8 wins then 
 function nextSequence() {
     var index = 0;
     if (game_RNG.length === 8) {
@@ -78,23 +73,11 @@ function nextSequence() {
     }
     
     //console.log(game_RNG.length);
-    
     user_clicked = [];
-    level++;
-    $("#level-title").text("Level " + level);
     var randomNumber = Math.floor(Math.random() * 4);
     var randomChosenColor = button_color[randomNumber];
     game_RNG.push(randomChosenColor);
-
-
-    
-
-
-    
-
     //console.log(game_RNG);
-
-
 }
 
 function playSound(name) {
@@ -110,12 +93,9 @@ function animateClick(currentColor) {
     }, 200);
 }
 
-
+// this function starts the game over when a user presses stop or fails
 function start_over() {
-    level = 0;
     game_RNG = [];
     started = false;
     $(".button").text("Start");
-
-
 }
