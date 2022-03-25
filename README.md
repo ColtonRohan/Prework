@@ -39,29 +39,28 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+![this is a gif of my js file showing all my fucntions](https://recordit.co/qcRFiecTW1)
+![this is a gif showing my HMTL file](https://recordit.co/Go5xWhBxJ9)
+![this is a gif showing my CSS file](https://recordit.co/GiPUOIkCao)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+one of the biggest helpers i used when creating this app was the JQuery framework. Also when working through this asignment i ran into some topics i hadnt used in a while and had to refresh on them using websites like www.w3schools.com , www.stackoverflow.com , and www.geeksforgeeks.org
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+one of the best and most important steps with computer programing is debugging, creating this program made me go over my code and debug it more then once. when i created the game i didnt realize there was step by step help in the directions, i watched the youtube video and used the information i knew to try and rebuild what i saw in the video. Doing this i ran into a fair bit of issues i had to overcome alone, one of the biggest ones being the colors of my buttons instead of playing one after the other they would all display at one time. the way i solved this was to include an if statement inside my nextsequence function that increments the index of my game_RNG while flashing the color each iteration of the function. Another big issue i was having was with the sounds, when the colors were flashing through each cycle the audio was not aligned with the flash. My sound is declared and played through a playsound function and was being called in my main nextsequence function, i found out after creating the if statement for the colors of my buttons that if i include the playsound call above the incrementation that the sound would align perfectly with my color sequence.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+after completing my submission, it got me thinking about the different ways i could have done my project to complete the same task. the different types of function implementation in more efficient ways trying to cut down on website latency. this might be a small game now but if it were to grow into something much larger im afraid my functions would not be able to keep up and would begin to lag the browser.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+one of the things i would do if i had more time would be making the game go on forever instead of ending at 8 turns and have a level counter to see how far the user can go in a uncapped game. another thing i would of dont to work on this app would be looking into function refactoring in an attempt to make sure they dont conflict with each other. one of the last things i would try to implement is IOS compatibility so the game could be easily played on mobile devices.
 
 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording] https://www.youtube.com/watch?v=j-n8pujnX3g i uploaded my video to an unlisted youtube video please let me know if there is an issue with the link i used
 
 
 ## License
