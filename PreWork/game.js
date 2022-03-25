@@ -43,13 +43,6 @@ function checkAnswers(current_level) {
 
 }
 
-function timeout() {
-    game_RNG.forEach((color, index) => {
-
-        $("#" + color).fadeOut(100).fadeIn(100);
-
-    })
-}
 // this is my main function which checks to make sure the game has not passes 8 wins then 
 function nextSequence() {
     var index = 0;
