@@ -39,9 +39,9 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![this is a gif of my js file showing all my fucntions](https://recordit.co/qcRFiecTW1)
-![this is a gif showing my HMTL file](https://recordit.co/Go5xWhBxJ9)
-![this is a gif showing my CSS file](https://recordit.co/GiPUOIkCao)
+![https://recordit.co/qcRFiecTW1](https://recordit.co/qcRFiecTW1)
+![https://recordit.co/Go5xWhBxJ9](https://recordit.co/Go5xWhBxJ9)
+![https://recordit.co/GiPUOIkCao](https://recordit.co/GiPUOIkCao)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
