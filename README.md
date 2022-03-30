@@ -6,7 +6,7 @@ Submitted by: Colton Rohan
 
 Time spent: 10 hours spent in total
 
-Link to project: Im going to be completely honest, I tried using glitch but I really didnt like the UI at all and made the whole project on my PC using VScode as my only text editor. I was going to upload it all to glitch when I finished but had issued with JQuery and the audio files conflicting with glitch, so I figured it would be best to avoid glitch. Im sorry and I hope this isn’t a big issue. 
+Link to project: I initially had some issues with glitch but learned how to use its softwate better and got my program to upload 
 
 ## Required Functionality
 
