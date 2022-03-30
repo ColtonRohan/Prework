@@ -6,7 +6,7 @@ Submitted by: Colton Rohan
 
 Time spent: 10 hours spent in total
 
-Link to project: I initially had some issues with glitch but learned how to use its softwate better and got my program to upload 
+Link to project: https://glitch.com/edit/#!/light-lightning-domain?path=PreWork%2Findex.html%3A1%3A0  I initially had some issues with glitch but learned how to use its softwate better and got my program to upload 
 
 ## Required Functionality
 
